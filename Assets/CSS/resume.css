@@ -1,0 +1,32 @@
+.eductaion-section,.work-section,.skills-list{
+	border-bottom: 1px solid #eee;
+	padding: 60px 0 ;	
+}
+.eductaion-section h2,
+.work-section h2{
+	margin: 0;
+	padding-left: 15px;
+}
+.eductaion-section h2 i,
+.work-section h2 i{
+	padding-right: 10px;
+	font-size: 30px;
+}
+/***********Education************/
+.eductaion-section .primary-table{
+	margin-top: 45px;
+}
+
+/*********Work Section*********/
+.work-section h2{
+	margin-bottom: 45px;
+}
+
+/******Hobbies**********/
+.hobbies{
+	padding: 60px 0;
+}
+.hobbies .hobbies-list{
+	padding-top: 30px;
+}
+

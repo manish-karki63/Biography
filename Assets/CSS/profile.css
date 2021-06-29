@@ -1,0 +1,30 @@
+.profile-section{
+	padding: 60px 0;
+}
+.profile-section .profile-desc h4{
+	background-color: #f0fdfd;
+	padding: 15px 30px;
+	font-weight: 500; 
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.profile-section .profile-desc h4 span.caption{
+	text-align: center;
+	display: block;	
+}
+.profile-section .profile-desc h4 span.icon{
+	display: block;
+	position: relative;
+}
+.profile-section .profile-desc h4 span.icon-right{
+	text-align: right;
+}
+	
+.profile-section .profile-desc p{
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.profile-section .profile-desc p:last-child{
+	margin-bottom: 0;
+}

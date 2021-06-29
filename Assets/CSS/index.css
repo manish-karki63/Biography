@@ -1,0 +1,94 @@
+.home-header{
+	display: flex;
+	flex-wrap: wrap;
+}
+.home-header .image{
+	flex: 0 0 25%;
+	max-width: 25%;
+	background-position: center;
+	background-position: 5px 5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.home-menu ul li a{
+	text-decoration: none;
+}
+.home-header .content{
+	flex: 0 0 75%;
+	max-width: 75%;
+	background: #a9d8d8;
+	height: 100vh;
+	padding: 0 60px;
+	position: relative;
+}
+.home-header .content .home-content-wrapper{
+	position: absolute;
+	top: 30%;
+	transform: translateY(-30%);
+}
+.home-header .content h1{
+	margin: 0;
+	font-size: 60px;
+}
+.home-header .content h2{
+	font-size: 50px;
+	margin: 0;
+}
+.home-header .content .line{
+	height:4px;
+	background: teal;
+	width: 60px;
+	margin-top: 6px;
+	margin-bottom: 30px;
+}
+.home-header .content .social-icon span{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border: 2px solid teal;
+	border-radius: 100%;
+	color:teal;
+	text-align: center;
+	font-size: 22px;
+	line-height: 56px;
+	margin-right: 5px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+}
+.home-header .content .social-icon span:hover{
+	background: #f1f1f1;
+}
+.home-menu{
+	padding: 60px 0;
+}
+.home-menu ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.home-menu ul li{
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+.home-menu ul li a{
+	text-decoration: none;
+	color: teal;
+	font-size: 18px;
+	font-weight: 500;
+	transition: all 0.2s ease-in-out;
+}
+.home-menu ul li a:hover{
+	color: #CA3C3C;
+}
+.home-menu ul li span{
+	display: block;
+	text-align: center;
+	
+}
+.home-menu ul li span.caption{
+	margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+.hobbies{
+	text-align: center;
+}
+
+.hobbies h2{
+    color: teal;
+    margin: 0;
+}
+
+.hobbies-list ul{
+	list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.hobbies-list ul li{
+	display: inline-block;
+	padding-left: 10px;
+}
+.hobbies-list ul li span{
+	display: block;
+}
+.hobbies-list ul li span.caption{
+    padding-top: 10px;
+}
+.hobbies-list ul li span.icon{
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background: white;
+	border: 1px solid #e9e9e9;
+	border-radius: 100%;
+	color:teal;
+	text-align: center;
+	font-size: 22px;
+    line-height: 58px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.hobbies-list ul li span.icon:hover{
+    transform: scale(0.9);
+}
